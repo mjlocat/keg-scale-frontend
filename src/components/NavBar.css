@@ -1,0 +1,27 @@
+.NavBar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.NavBar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.NavBar .logout-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.NavBar .logout-button:hover {
+  background-color: #ff1a1a;
+}
